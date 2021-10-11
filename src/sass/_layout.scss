@@ -1,12 +1,79 @@
+/* layout */
 .wrapper {
-    margin: 30px;
-    border: solid orangered;
-    display: flex;
-    flex-wrap: wrap;
-  }
+  margin: 30px;
+  border: solid orangered;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .list-of-contents{
-    border: solid green;
-    
+  border: solid green;
+  margin: 15px;
+  padding: 0px 20px 0px 20px;
+}
 
+
+/*components */
+/* TEXTS */
+h1, h2{
+  font-family: $brand-font;
+  font-size: $paragraph-font-size;
+  color: $paragraph-color;
+}
+
+p {
+  font-family: $paragraph-font;
+}
+
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: $color-link;
+  font-family: $brand-font;
+}
+
+.link-hover a:hover{
+  color: $link-hover;
+
+} 
+
+/* BUTTONS */
+.btn{
+ margin: 10px;
+ padding: 10px 20px; 
+ border-radius: 5px;
+ font-family: $brand-font;
+ color: $white;
+ border: none;
+}
+
+.btn-grey{
+  background-color: $grey;
+}
+
+.btn-grey-hover{
+  background-color: $grey;
+}
+
+.btn-grey-hover:hover{
+  cursor: pointer;
+  background-color:$low-grey ;
+}
+
+.btn-orange{
+  background-color:$orange ;
+}
+
+.btn-orange-hover{
+  background-color:$orange ;
+}
+
+.btn-orange-hover:hover{
+  cursor: pointer;
+  background-color:$hover-orange ;
+}
+
+.btn-disabled{
+  background-color:$low-grey ;
 }
