@@ -40,12 +40,13 @@ a {
 
 /* BUTTONS */
 .btn{
- margin: 10px;
- padding: 10px 20px; 
- border-radius: 5px;
- font-family: $brand-font;
- color: $white;
- border: none;
+  margin: 10px;
+  padding: 10px 20px;
+
+  border-radius: 5px;
+  font-family: $brand-font;
+  color: $white;
+  border: none;
 }
 
 .btn-grey{
@@ -58,24 +59,55 @@ a {
 
 .btn-grey-hover:hover{
   cursor: pointer;
-  background-color:$low-grey ;
+  background-color: $low-grey;
 }
 
 .btn-orange{
-  background-color:$orange ;
+  background-color: $orange;
 }
 
 .btn-orange-hover{
-  background-color:$orange ;
+  background-color: $orange;
 }
 
 .btn-orange-hover:hover{
   cursor: pointer;
-  background-color:$hover-orange ;
+  background-color: $hover-orange;
 }
 
 .btn-disabled{
-  background-color:$low-grey ;
+  background-color: $low-grey;
 }
 
 /* CHECKBOX LIST */
+ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 14px; 
+}
+
+.checkbox-label{
+  font-family: $brand-font ;
+  margin: 7px;
+}
+
+input{
+  height: 18px;
+  width: 18px;
+} 
+
+.check-box-hover ul{
+  width: 280px;
+  height: 40px;
+  cursor: pointer;
+  
+}
+.check-box-hover ul:hover{
+  width: 280px;
+  height: 40px;
+  background-color: $lower-grey;
+  cursor: pointer;
+  
+}
+
