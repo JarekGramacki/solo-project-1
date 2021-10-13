@@ -103,8 +103,6 @@ input{
 }
 
 .check-box-hover ul:hover{
-  width: 280px;
-  height: 40px;
   background-color: $lower-grey;
   cursor: pointer;
 }
@@ -113,6 +111,7 @@ input{
 .inputs{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   
 }
 
@@ -124,17 +123,24 @@ textarea{
   font-family:$brand-font ;
   font-size: 14px;
   border-radius: 5px;
+  margin:2px;
 }
 
-input[type=text]{
+input[type=text]:hover, [type=password]:hover, textarea:hover{
+  cursor: pointer;
+  border: solid 2px $paragraph-color;
+}
+
+input[type=text], [type=password]{
   width: 159px;
-  height: 20px;
+  height: 18px;
   font-family:$brand-font;
   font-size: 14px;
   margin: 10px 0px;
   padding: 10px;
 }
 
-.inputs-texts{
+.inputs-texts-hover{
   margin:10px
 }
+
