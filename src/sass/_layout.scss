@@ -120,10 +120,10 @@ textarea{
   height: 120px;
   resize: none;
   padding: 10px;
-  font-family:$brand-font ;
+  font-family: $brand-font ;
   font-size: 14px;
   border-radius: 5px;
-  margin:2px;
+  margin: 2px;
 }
 
 input[type=text]:hover, [type=password]:hover, textarea:hover{
@@ -134,13 +134,41 @@ input[type=text]:hover, [type=password]:hover, textarea:hover{
 input[type=text], [type=password]{
   width: 159px;
   height: 18px;
-  font-family:$brand-font;
+  font-family: $brand-font;
   font-size: 14px;
   margin: 10px 0px;
   padding: 10px;
 }
 
 .inputs-texts-hover{
-  margin:10px
+  margin: 10px;
 }
 
+/* TABLE WITH LINK */
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd ;
+  height: 40px;
+  font-family: $brand-font;
+  color: $paragraph-color;
+}
+
+table {
+  width: 320px;
+  border-collapse: collapse;
+}
+
+.table-with-link{
+  margin-top: 10px;
+}
+
+tr a {
+  margin-left: 187px;
+}
+
+.hover-tab:hover{
+  background-color: $lower-grey ;
+  cursor: pointer;
+}
