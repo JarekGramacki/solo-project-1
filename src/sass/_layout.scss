@@ -129,6 +129,7 @@ textarea{
 input[type=text]:hover, [type=password]:hover, textarea:hover{
   cursor: pointer;
   border: solid 2px $paragraph-color;
+  
 }
 
 input[type=text], [type=password]{
